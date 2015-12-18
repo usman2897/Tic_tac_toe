@@ -222,13 +222,3 @@ int main()
     else printf("Draw\n");
     return 0;
 }
-
-
-
-
-
-
-
-
-
-
