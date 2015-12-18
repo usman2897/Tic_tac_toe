@@ -80,7 +80,7 @@ int play_input(Board b[3][3],Player *p)
     while(1)
     {
         scanf("%d",&pos);
-        if((b[(pos-1)/3][(pos-1)%3].taken)==0) return pos;
+        if(((b[(pos-1)/3][(pos-1)%3].taken)==0)&&(pos>=1&&pos<=9)) return pos;
         else printf("Wrong choice!\nTry again:");
     }
     return -1;
